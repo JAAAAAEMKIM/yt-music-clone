@@ -1,0 +1,14 @@
+.wrapper {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.toolbar {
+  display: flex;
+}
+
+.input {
+  display: flex;
+}

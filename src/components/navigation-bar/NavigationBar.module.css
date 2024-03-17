@@ -1,0 +1,12 @@
+.item {
+
+  a {
+    display: block;
+    padding: 12px 0;
+    background: var(--background-color);
+
+    &:hover {
+      background: var(--background-color-hover);
+    }
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "Jaemin Kim"
+    }
+  ],
+  "moods": [
+    { "id": 1, "value": "sad", "label": "Sad" },
+    { "id": 2, "value": "fun", "label": "Fun" },
+    { "id": 3, "value": "enthusiastic", "label": "Enthusiastic" },
+    { "id": 4, "value": "feel-good", "label": "Feel Good" },
+    { "id": 5, "value": "relaxing", "label": "Relaxing" }
+  ],
+  "categories": [
+    {
+      "category": { "id": 1, "type": "listen-again", "label": "Listen again" },
+      "items": [
+        {
+          "id": 1,
+          "type": "song",
+          "title": "Dancing in the Moonlight",
+          "singer": "Toploader",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 1,
+          "type": "song",
+          "title": "Dancing in the Moonlight",
+          "singer": "Toploader",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 1,
+          "type": "song",
+          "title": "Dancing in the Moonlight",
+          "singer": "Toploader",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 1,
+          "type": "song",
+          "title": "Dancing in the Moonlight",
+          "singer": "Toploader",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 2,
+          "type": "album",
+          "title": "wonderego",
+          "singer": "Crush",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 2,
+          "type": "album",
+          "title": "wonderego",
+          "singer": "Crush",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 2,
+          "type": "album",
+          "title": "wonderego",
+          "singer": "Crush",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 2,
+          "type": "album",
+          "title": "wonderego",
+          "singer": "Crush",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 3,
+          "type": "channel",
+          "title": "Sheena Ringo",
+          "subscribers": 1105052,
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 4,
+          "type": "video",
+          "title": "코딩할 때 듣는 좋은 Lofi 믹스테잎-과제할 때-공부할 때-3hours",
+          "channel": "Yellow Mixtape",
+          "views": 428391,
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 4,
+          "type": "video",
+          "title": "코딩할 때 듣는 좋은 Lofi 믹스테잎-과제할 때-공부할 때-3hours",
+          "channel": "Yellow Mixtape",
+          "views": 428391,
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 4,
+          "type": "video",
+          "title": "코딩할 때 듣는 좋은 Lofi 믹스테잎-과제할 때-공부할 때-3hours",
+          "channel": "Yellow Mixtape",
+          "views": 428391,
+          "thumbnailUrl": "#"
+        }
+      ]
+    },
+    {
+      "category": {
+        "id": 2,
+        "type": "forgotten-favorites",
+        "label": "Forgotten favorites"
+      },
+      "items": [
+        {
+          "id": 1,
+          "type": "song",
+          "title": "Dancing in the Moonlight",
+          "singer": "Toploader",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 1,
+          "type": "song",
+          "title": "Dancing in the Moonlight",
+          "singer": "Toploader",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 1,
+          "type": "song",
+          "title": "Dancing in the Moonlight",
+          "singer": "Toploader",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 1,
+          "type": "song",
+          "title": "Dancing in the Moonlight",
+          "singer": "Toploader",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 2,
+          "type": "album",
+          "title": "wonderego",
+          "singer": "Crush",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 2,
+          "type": "album",
+          "title": "wonderego",
+          "singer": "Crush",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 2,
+          "type": "album",
+          "title": "wonderego",
+          "singer": "Crush",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 2,
+          "type": "album",
+          "title": "wonderego",
+          "singer": "Crush",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 3,
+          "type": "channel",
+          "title": "Sheena Ringo",
+          "subscribers": 1105052,
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 4,
+          "type": "video",
+          "title": "코딩할 때 듣는 좋은 Lofi 믹스테잎-과제할 때-공부할 때-3hours",
+          "channel": "Yellow Mixtape",
+          "views": 428391,
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 4,
+          "type": "video",
+          "title": "코딩할 때 듣는 좋은 Lofi 믹스테잎-과제할 때-공부할 때-3hours",
+          "channel": "Yellow Mixtape",
+          "views": 428391,
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 4,
+          "type": "video",
+          "title": "코딩할 때 듣는 좋은 Lofi 믹스테잎-과제할 때-공부할 때-3hours",
+          "channel": "Yellow Mixtape",
+          "views": 428391,
+          "thumbnailUrl": "#"
+        }
+      ]
+    },
+    {
+      "category": { "id": 3, "type": "quick-picks", "label": "Quick picks" },
+      "items": [
+        {
+          "id": 1,
+          "type": "song",
+          "title": "Dancing in the Moonlight",
+          "singer": "Toploader",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 1,
+          "type": "song",
+          "title": "Dancing in the Moonlight",
+          "singer": "Toploader",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 1,
+          "type": "song",
+          "title": "Dancing in the Moonlight",
+          "singer": "Toploader",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 1,
+          "type": "song",
+          "title": "Dancing in the Moonlight",
+          "singer": "Toploader",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 2,
+          "type": "album",
+          "title": "wonderego",
+          "singer": "Crush",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 2,
+          "type": "album",
+          "title": "wonderego",
+          "singer": "Crush",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 2,
+          "type": "album",
+          "title": "wonderego",
+          "singer": "Crush",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 2,
+          "type": "album",
+          "title": "wonderego",
+          "singer": "Crush",
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 3,
+          "type": "channel",
+          "title": "Sheena Ringo",
+          "subscribers": 1105052,
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 4,
+          "type": "video",
+          "title": "코딩할 때 듣는 좋은 Lofi 믹스테잎-과제할 때-공부할 때-3hours",
+          "channel": "Yellow Mixtape",
+          "views": 428391,
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 4,
+          "type": "video",
+          "title": "코딩할 때 듣는 좋은 Lofi 믹스테잎-과제할 때-공부할 때-3hours",
+          "channel": "Yellow Mixtape",
+          "views": 428391,
+          "thumbnailUrl": "#"
+        },
+        {
+          "id": 4,
+          "type": "video",
+          "title": "코딩할 때 듣는 좋은 Lofi 믹스테잎-과제할 때-공부할 때-3hours",
+          "channel": "Yellow Mixtape",
+          "views": 428391,
+          "thumbnailUrl": "#"
+        }
+      ]
+    }
+  ]
+}
