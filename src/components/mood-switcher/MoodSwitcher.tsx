@@ -13,7 +13,7 @@ const MoodSwitcher: React.FC<MoodSwitcherProps> = ({ moods }) => {
   return (
     <ul className={styles.wrapper}>
       {moods.map((mood) => (
-        <MoodSwitcherItem {...mood} />
+        <MoodSwitcherItem {...mood} key={mood.value} />
       ))}
     </ul>
   );

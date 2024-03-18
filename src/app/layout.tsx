@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import MainLayout from "@/layouts/MainLayout";
+import Header from "@/components/header/Header";
+import NavigationBar from "@/components/navigation-bar/NavigationBar";
+import Player from "@/components/player/Player";
+import { Suspense } from "react";
+import { ErrorBoundary } from "react-error-boundary";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +22,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className="h-lvh">
+        <MainLayout
+          header={<Header onClick={() => console.log("click")} />}
+          navigation={<NavigationBar />}
+          player={<Player />}
+          content={
+            <ErrorBoundary fallback={<div>Error Boundary</div>}>
+              <Suspense fallback={"...loading"}>{children}</Suspense>
+            </ErrorBoundary>
+          }
+        />
+      </body>
     </html>
   );
 }

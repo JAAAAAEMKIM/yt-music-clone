@@ -1,4 +1,4 @@
-import { fetchCategories } from "@apis/categories";
+import { fetchCategories } from "@/apis/categories";
 import { useSuspenseQuery } from "@tanstack/react-query";
 
 export const useCategoriesQuery = () =>

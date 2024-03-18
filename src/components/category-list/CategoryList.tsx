@@ -1,4 +1,4 @@
-import { CATEGORY_TYPE, CategoryList, type Category } from "@models/Category";
+import { CATEGORY_TYPE, CategoryList, type Category } from "@/models/Category";
 
 const CATEGORY_COMPONENT_MAP = {
   [CATEGORY_TYPE.LA]: ({ label }) => <div>LA {label}</div>,

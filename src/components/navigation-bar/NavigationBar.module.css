@@ -1,12 +1,8 @@
-.item {
-
-  a {
-    display: block;
-    padding: 12px 0;
-    background: var(--background-color);
-
-    &:hover {
-      background: var(--background-color-hover);
-    }
-  }
+.item .anchor {
+  display: block;
+  padding: 12px 0;
+  background: var(--background-color);
+}
+.item .anchor:hover {
+  background: var(--background-color-hover);
 }

@@ -1,10 +1,21 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import styles from "./Header.module.css";
+import Logo from "../logo/Logo";
+import HamburgerButton from "../hamburger-button/HamburgerButton";
 
-const Header: React.FC = () => {
+interface Props {
+  onClickHamburger: () => void;
+}
+
+const Header = ({ onClickHamburger }: Props) => {
   return (
-    <div className={styles.wrapper}>
-      <Link to="/">Logo Music</Link>
+    <div className="flex justify-between h-16">
+      <div className="flex items-center pl-4 gap-3">
+        <HamburgerButton onClick={onClickHamburger} />
+        <Link href="/">
+          <Logo />
+        </Link>
+      </div>
       <div className={styles.input}>
         <i>Search Icon</i>
 

@@ -12,16 +12,15 @@
 
   height: 36px;
   padding: 0 12px;
+}
 
-  a {
-    color: var(--color-button);
-  }
+.item.anchor {
+  color: var(--color-button);
+}
 
-  &:hover {
-    background: var(--bg-button-hover);
-
-    a {
-      color: var(--color-button);
-    }
-  }
+.item:hover {
+  background: var(--bg-button-hover);
+}
+.item:hover .anchor {
+  color: var(--color-button);
 }

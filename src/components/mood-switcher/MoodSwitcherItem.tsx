@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { Mood } from "./MoodSwitcher";
 import styles from "./MoodSwitcher.module.css";
 
@@ -9,7 +9,9 @@ const convertMoodToLink = (value: Mood["value"]) => {
 const MoodSwitcherItem: React.FC<Mood> = ({ value, label }) => {
   return (
     <li className={styles.item}>
-      <Link to={convertMoodToLink(value)}>{label}</Link>
+      <Link className={styles.anchor} href={convertMoodToLink(value)}>
+        {label}
+      </Link>
     </li>
   );
 };

@@ -1,5 +1,5 @@
-import CategoryList from "@components/category-list/CategoryList";
-import { useCategoriesQuery } from "@queries/useCategoriesQuery";
+import CategoryList from "@/components/category-list/CategoryList";
+import { useCategoriesQuery } from "@/queries/useCategoriesQuery";
 
 const MainContents = () => {
   const { data: categories } = useCategoriesQuery();

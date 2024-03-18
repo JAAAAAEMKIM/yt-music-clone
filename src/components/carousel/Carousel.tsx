@@ -1,4 +1,4 @@
-import ProfileThumbnail from "@components/thumbnail/ProfileThumbnail";
+import ProfileThumbnail from "@/components/thumbnail/ProfileThumbnail";
 import styles from "./Carousel.module.css";
 
 interface CarouselProps {
@@ -17,13 +17,13 @@ const Carousel: React.FC<CarouselProps> = ({
   children,
 }) => {
   return (
-    <div className={styles.wrapper}>
-      <div className={styles.upper}>
-        <div className={styles.thumbnailWrap}>
+    <div className="flex">
+      <div className="flex">
+        <div className="flex">
           {thumbnailUrl && <ProfileThumbnail src={thumbnailUrl} />}
-          <div className={styles.descriptionWrap}>
+          <div className="flex">
             {description}
-            <div className={styles.titleWithButton}>
+            <div className="flex">
               {title}
               {button}
             </div>
@@ -34,9 +34,7 @@ const Carousel: React.FC<CarouselProps> = ({
           <button>&lt;</button>
         </div>
       </div>
-      <div className={styles.content}>
-      {children}
-      </div>
+      <div className={styles.content}>{children}</div>
     </div>
   );
 };

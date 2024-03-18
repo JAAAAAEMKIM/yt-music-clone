@@ -1,18 +1,3 @@
-.wrapper {
-  display: flex;
-}
-
-.thumbnailWrap {
-  display: flex;
-}
-
-.descriptionWrap {
-  display: flex;
-}
-
-.titleWithButton {
-  display: flex;
-}
 
 .content{
   width: 100%;
