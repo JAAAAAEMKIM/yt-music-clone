@@ -1,4 +1,4 @@
-const BASE_URL = "/api";
+const BASE_URL = "http://localhost:3001";
 
 const fetcher = async (url: string, config?: Parameters<typeof fetch>[1]) => {
   const res = await fetch(`${BASE_URL}${url}`, config);

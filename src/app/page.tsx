@@ -1,11 +1,13 @@
+import { getMoods } from "@/apis/moods";
 import MainContents from "./MainContents";
-import MainMoodSwitcher from "./MainMoodSwitcher";
+import MoodSwitcher from "@/components/mood-switcher/MoodSwitcher";
 
-export default function Home() {
+export default async function Home() {
+  const data = await getMoods();
   return (
-    <div>
-      <MainMoodSwitcher />
-      <MainContents />
+    <div className="pt-10 mt-1.5 w-full">
+      <MoodSwitcher moods={data} />
+      {/* <MainContents /> */}
     </div>
   );
 }

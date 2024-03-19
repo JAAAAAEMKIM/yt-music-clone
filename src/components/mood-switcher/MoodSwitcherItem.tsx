@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Mood } from "./MoodSwitcher";
 import styles from "./MoodSwitcher.module.css";
+import clsx from "clsx";
 
 const convertMoodToLink = (value: Mood["value"]) => {
   return `?mood=${value}`;
@@ -8,8 +9,18 @@ const convertMoodToLink = (value: Mood["value"]) => {
 
 const MoodSwitcherItem: React.FC<Mood> = ({ value, label }) => {
   return (
-    <li className={styles.item}>
-      <Link className={styles.anchor} href={convertMoodToLink(value)}>
+    <li
+      className={clsx(
+        "inline-flex place-content-center",
+        "px-3",
+        "rounded-md",
+        "text-sm/4",
+        "cursor-pointer",
+        "bg-white-transparent-10",
+        "hover:bg-white-transparent-20",
+      )}
+    >
+      <Link className="h-9 leading-9" href={convertMoodToLink(value)}>
         {label}
       </Link>
     </li>

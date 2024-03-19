@@ -4,14 +4,8 @@
 }
 
 .item {
-  border-radius: 5px;
   background: var(--bg-button);
-  display: inline-flex;
-  align-items: center;
   font-size: var(--font-size-1);
-
-  height: 36px;
-  padding: 0 12px;
 }
 
 .item.anchor {

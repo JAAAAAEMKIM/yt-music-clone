@@ -11,7 +11,7 @@ interface MoodSwitcherProps {
 
 const MoodSwitcher: React.FC<MoodSwitcherProps> = ({ moods }) => {
   return (
-    <ul className={styles.wrapper}>
+    <ul className="flex gap-3 ml-14">
       {moods.map((mood) => (
         <MoodSwitcherItem {...mood} key={mood.value} />
       ))}

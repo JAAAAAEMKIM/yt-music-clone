@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="h-lvh">
         <MainLayout
-          header={<Header onClick={() => console.log("click")} />}
+          header={<Header />}
           navigation={<NavigationBar />}
           player={<Player />}
           content={
